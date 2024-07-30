@@ -1,0 +1,40 @@
+{% extends "base/index.html"%}
+
+ {% block CustomCSS %}
+
+{% endblock %}
+
+
+
+{% block content%}
+<section class="bg-light py-3 py-md-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-5 col-xxl-4">
+        <div class="card border border-light-subtle rounded-3 shadow-sm">
+          <div class="card-header py-3 bg-primary-subtle">
+            <div class="d-flex justify-content-between align-items-center">
+              <div>
+                <h3 class="text-primary"><a href="{% url 'tasklist' %}">&#8592;</a></h3>
+              </div>
+              <div class="flex-grow-1 text-center">
+                <!-- Center content if needed -->
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <form method="post">
+              {% csrf_token %}
+              <p>Are you sure want to delete Task ?: {{Task}}</p>
+              <div class="d-flex justify-content-end">
+                <input class="btn btn-danger" type="submit" value="Delete">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}
