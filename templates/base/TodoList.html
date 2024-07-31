@@ -27,7 +27,11 @@
 
                     </div>
                     <div>
-                <a href="{% url 'Logout' %}">Logout</a>
+                         <form id="logout-form" action="{% url 'Logout' %}" method="post">
+        <a href="#" onclick="document.getElementById('logout-form').submit(); return false;">Logout</a>
+                             {% csrf_token %}
+    </form>
+
                 {% else %}
                 <a href="{% url 'Login' %}">Login</a>
                 {%  endif %}

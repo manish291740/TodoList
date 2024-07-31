@@ -1,0 +1,23 @@
+[33mcommit f69fd98f4b165b7097d55ff969df2d0440b23444[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: manish291740 <manish291740@gmail.com>
+Date:   Wed Jul 31 16:20:11 2024 +0530
+
+    dbchange
+
+[33mcommit 5c5b9c3e5cdcc732ba9910102715589a92841dc1[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: manish291740 <manish291740@gmail.com>
+Date:   Tue Jul 30 19:51:52 2024 +0530
+
+    production on vercel
+
+[33mcommit 4d184a5743b9bec19abc8e30984f318f27caea7d[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: manish291740 <manish291740@gmail.com>
+Date:   Tue Jul 30 18:49:02 2024 +0530
+
+    Initial commit of Django project production
+
+[33mcommit 3787e68759e8b17c888c4623f655654ddd438f35[m
+Author: manish291740 <manish291740@gmail.com>
+Date:   Tue Jul 30 18:48:24 2024 +0530
+
+    Initial commit of Django project
